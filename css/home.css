@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1320px ;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* start customize header  */
+header{
+    background:#10002831;
+    padding: 20px 0;
+}
+header .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .row .column-1,header .row .column-3 {
+    width: 20%;
+}
+header .row .column-2 {
+    width: 60%;
+}
+header .links ul,header .icons {
+    display: flex;
+    justify-content: center;
+}
+header .links ul li{
+    margin-right: 25px;
+}
+header .icons li{
+    margin-left: 15px;
+}
+header .links ul li a{
+    color: #fff;
+}
+/* end customize header  */
