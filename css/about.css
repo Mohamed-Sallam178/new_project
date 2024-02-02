@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px ;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* start customize title section */
+.title-sec{
+    background: url(../images/breadcrumb-bg.jpg);
+    padding: 180px;
+    background-size: cover;
+    background-position: center top;
+}
+.title-sec .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-sec .content h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.title-sec .content .breadcrambs {
+    text-align: center;
+}
+.breadcrambs a{
+    color: #fff;
+}
+.crambs-slash:after {
+    content: '/';
+    padding: 0 10px;
+    color: #adadad;
+}
+.breadcrambs span{
+    color: #adadad;
+}
+/* end customize title section */
+
+/* start customize portfolio */
+.portfolio {
+    background: #100028;
+    padding-top: 100px;
+}
+.portfolio .row-1{
+    margin-bottom: 50px;
+}
+.menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a {
+    color: #adadad;
+    padding: 10px 22px;
+}
+.menu ul li.active a{
+    border: 1px solid #00bfe7;
+}
+.portfolio .row-2 .all-photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio .row-2 .only-card{
+    width: 33.3%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.portfolio .row-2 .only-card .background{
+    height: 305px;
+    background-size: cover;
+}
+.portfolio .row-2 .gallery-image img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-image{
+    position: relative;
+}
+.video-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    padding: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.portfolio .row-2 .text{
+    color: #adadad;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+.portfolio .row-2 .text h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.portfolio .row-3{
+    padding: 50px;
+}
+.portfolio .row-3,.portfolio .row-3 .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.portfolio .row-3 .space{
+    margin: 0 15px;
+}
+.space i {
+    opacity: .3;
+}
+.portfolio .row-3 .single {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: rgba(242, 242, 242, 0.1);
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+/* end customize portfolio */
+
+/* start customize footer */
+.store-footer{
+    background: #0a0119;
+}
+.footer-top {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top  .links ul {
+    display: flex;
+}
+.footer-top  .links ul li {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 42px;
+}
+.footer-top  .links ul li i{
+    color: #fff;
+}
+.footer-bottom{
+    padding: 70px 30px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom .col-1{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.footer-bottom .col-2{
+    flex: 0 0 16.6%;
+    max-width: 16.6%;
+}
+.footer-bottom .col-3{
+    flex: 0 0 16.6%;
+    max-width: 16.6%;
+}
+.footer-bottom .col-4{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.column {
+    padding: 0 20px;
+}
+.footer-bottom .column .col-title{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-bottom .col-text{
+    color: #adadad;
+}
+.footer-bottom .col-text p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 2.5;
+}
+.footer-bottom .col-text .read a {
+    color: #fff;
+}
+.footer-bottom .col-4 .text{
+    color: #adadad;
+    margin-bottom: 20px;
+}
+.web-links li {
+    line-height: 2.5;
+}
+.web-links li a{
+    color: #adadad;
+}
+form.label{
+    position: relative;
+}
+form.label input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #544E5E;
+    padding-left: 20px;
+    border-right: none;
+    color: #adadad;
+    font-size: 16px;
+}
+footer button{
+    width: 50px;
+    height: 50px;
+    background: #00bfe7;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
+.copyright{
+    padding: 50px;
+    text-align: center;
+    color: #adadad;
+}
+.copyright i,.copyright span{
+    color: #00bfe7;
+}
+/* end customize footer */

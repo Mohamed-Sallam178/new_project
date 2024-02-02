@@ -1,0 +1,75 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+/* start customize header  */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header .links li a{
+    position: relative;
+}
+.main-header .links li a:after {
+    content: '';
+    position: absolute;
+    background: #00bfe7;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: all .5s;
+}
+.main-header .links li:hover a:after{
+    transform: scale(1);
+}
+.main-header .links li a.active{
+    border-bottom: 3px solid #00bfe7;
+}
+.main-header .links li a{
+    padding-bottom: 5px;
+}
+header .row .column-1,header .row .column-3 {
+    width: 20%;
+}
+header .row .column-2 {
+    width: 60%;
+}
+header .links ul,header .icons {
+    display: flex;
+    justify-content: center;
+}
+header .links ul li{
+    margin-right: 25px;
+}
+header .icons li{
+    margin-left: 15px;
+}
+header .links ul li a,header .menu-column .icons i{
+    color: #fff;
+}
+header .menu-column.column-3{
+    position: relative;
+}
+header .menu-column.column-3:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    width: 1px;
+    background: rgba(225, 225, 225, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* end customize header  */
