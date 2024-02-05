@@ -73,3 +73,115 @@ header .menu-column.column-3:before {
     top: 0;
 }
 /* end customize header  */
+
+
+
+/* start customize footer */
+.store-footer{
+    background: #0a0119;
+}
+.footer-top {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top  .links ul {
+    display: flex;
+}
+.footer-top  .links ul li {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 42px;
+}
+.footer-top  .links ul li i{
+    color: #fff;
+}
+.footer-bottom{
+    padding: 70px 30px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom .col-1{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.footer-bottom .col-2{
+    flex: 0 0 16.6%;
+    max-width: 16.6%;
+}
+.footer-bottom .col-3{
+    flex: 0 0 16.6%;
+    max-width: 16.6%;
+}
+.footer-bottom .col-4{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.column {
+    padding: 0 20px;
+}
+.footer-bottom .column .col-title{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-bottom .col-text{
+    color: #adadad;
+}
+.footer-bottom .col-text p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 2.5;
+}
+.footer-bottom .col-text .read a {
+    color: #fff;
+}
+.footer-bottom .col-4 .text{
+    color: #adadad;
+    margin-bottom: 20px;
+}
+.web-links li {
+    line-height: 2.5;
+}
+.web-links li a{
+    color: #adadad;
+}
+form.label{
+    position: relative;
+}
+form.label input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #544E5E;
+    padding-left: 20px;
+    border-right: none;
+    color: #adadad;
+    font-size: 16px;
+}
+footer button{
+    width: 50px;
+    height: 50px;
+    background: #00bfe7;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
+.copyright{
+    padding: 50px;
+    text-align: center;
+    color: #adadad;
+}
+.copyright i,.copyright span{
+    color: #00bfe7;
+}
+/* end customize footer */
