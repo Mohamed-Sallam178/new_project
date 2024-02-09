@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    background-color: #100028;
+}
+p {
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #adadad;
+    font-weight: 400;
+    line-height: 26px;
+    /* padding-bottom: 20px; */
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 900px ;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* start customize section open */
+.section-open {
+    background: url(../images/blog-hero.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.section-open .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-open .column-1 {
+    color: #fff;
+    text-align: center;
+}
+.section-open .column-1 h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.section-open .column-1 span{
+    font-size: 15px;
+    color: #fff;
+    opacity: .7;
+}
+
+/* end customize section open*/
+
+/* start customize details */
+.paragraphs .row-1 p.bottom {
+    padding-bottom: 60px;
+}
+.paragraphs .row-1 .bordered{
+    border: 1px solid #adadad;
+    padding: 30px 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.paragraphs .row-1 .bordered i {
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #00bfe7;
+}
+.paragraphs .row-2 .all-content{
+    display: flex;
+    margin-bottom: 50px;
+}
+.paragraphs .row-2 .all-content > div {
+    display: flex;
+    align-items: center;
+}
+.paragraphs .row-2 .all-content .icon {
+    margin-right: 30px;
+}
+.paragraphs .row-2 .all-content .tags p {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.row-3 {
+    display: flex;
+    margin: 50px 0;
+}
+.row-3 .post{
+    display: flex;
+}
+
+.row-3 > div {
+    padding: 20px;
+}
+.row-3 > div p{
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.row-3 > div span{
+    color: #adadad;
+
+}
+.row-3 .next > p,.row-3 .previous > p{
+    padding-bottom: 20px;
+}
+.row-3 .previous .image{
+    margin-right: 20px;
+}
+.row-3 .next .image{
+    margin-left: 20px;
+}
+.row-3 .next p{
+    text-align: right;
+}
+.row-3 .next span {
+    text-align: right;
+    display: block;
+}
+/* end customize details */
+
+/* start customize cards */
+.row-4{
+    margin-bottom: 80px;
+}
+.row-4 .recent h2{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.row-4 .cards {
+    display: flex;
+    gap: 40px;
+}
+.row-4 .cards .card h2{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.row-4 .cards .card span{
+    color: #adadad;
+    font-size: 13px;
+}
+/* end customize cards */
+
+/* start customize form */
+.row-5 .comment h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+form input,form textarea {
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #adadad;
+}
+form .form-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+form .form-1 input{
+    width: calc((100% - 15px) / 3);
+}
+form .form-2 textarea{
+    width: 100%;
+}
+.submit button {
+    width: 100%;
+    padding: 15px;
+    background: #00bfe7;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin: 20px 0 100px 0;
+}
+/* end customize form */

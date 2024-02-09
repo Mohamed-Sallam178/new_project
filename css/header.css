@@ -46,7 +46,7 @@ header .row .column-1,header .row .column-3 {
 header .row .column-2 {
     width: 60%;
 }
-header .links ul,header .icons {
+header .links ul,header .icons ul{
     display: flex;
     justify-content: center;
 }
@@ -71,6 +71,23 @@ header .menu-column.column-3:before {
     position: absolute;
     left: 0;
     top: 0;
+}
+ul.child-menu {
+    display: none !important;
+    width: 160px;
+    position: absolute;
+    top: 28px;
+    background: #fff;
+    color: #000;
+}
+ul.child-menu li {
+    padding: 12px;
+    font-size: 13px;
+    margin: 0 !important;
+
+}
+.children:hover ul.child-menu{
+    display: block !important;
 }
 /* end customize header  */
 

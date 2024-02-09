@@ -28,6 +28,7 @@ a{
     margin-left: auto;
 }
 
+
 /* start customize header  */
 header{
     background:#10002831;
@@ -144,7 +145,6 @@ header .links ul li a{
 }
 
 /* end customize section open*/
-
 /* start customize services */
 .services{
     background-color: #100028;
@@ -281,7 +281,7 @@ header .links ul li a{
 
 /* start customize shape */
 .shape{
-    padding: 80px ;
+    padding: 170px 0 ;
     background-color: #100028;
 }
 .shape .row{
