@@ -66,6 +66,7 @@ header .links ul li a{
     height: 700px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .section-open .row {
     position: absolute;
@@ -119,7 +120,7 @@ header .links ul li a{
 }
 .page-num{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     color: #adadad;
     font-size: 20px;
     font-weight: bold;
@@ -127,6 +128,7 @@ header .links ul li a{
 .page-num span{
     margin-right: 10px;
     position: relative;
+    cursor: pointer;
 }
 .page-num span:after {
     content: "";
@@ -216,6 +218,50 @@ header .links ul li a{
 .services .col-2 .col-item .img:hover:before{
     transform: rotate(45deg);
 }
+
+.rotate{
+    position: relative;
+}
+.ro-1:before {
+    content: '';
+    position: absolute;
+    border-left: 2px solid #333333;
+    border-top: 1px solid #333333;
+    width: 682px;
+    height: 678px;
+    bottom: 3px;
+    left: -2px;
+}
+.ro-2:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid #333333;
+    border-bottom: 1px solid #333333;
+    width: 600px;
+    height: 600px;
+    bottom: -49px;
+    left: -315px;
+}
+.ro-3::before {
+    content: '';
+    position: absolute;
+    border-left: 2px solid #333333;
+    border-top: 1px solid #333333;
+    width: 600px;
+    height: 600px;
+    bottom: -315px;
+    left: -51px;
+}
+.ro-4::before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid #333333;
+    border-bottom: 1px solid #333333;
+    width: 681px;
+    height: 685px;
+    bottom: -449px;
+    left: -444px;
+}
 /* end customize services */
 
 
@@ -281,7 +327,7 @@ header .links ul li a{
 
 /* start customize shape */
 .shape{
-    padding: 170px 0 ;
+    padding: 300px 0 ;
     background-color: #100028;
 }
 .shape .row{
@@ -293,10 +339,11 @@ header .links ul li a{
     flex: 0 0 25%;
     max-width: 25%;
     text-align: center;
+    margin: 0 25px;
 }
 .shape .row .only .rotate{
-    width: 225px;
-    height: 225px;
+    width: 235px;
+    height: 235px;
     transform: rotate(45deg);
     background-color: #1a083d;
     display: flex;

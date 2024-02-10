@@ -231,6 +231,49 @@ a{
 .shape .row .only p{
     color: #fff;
 }
+.rotate{
+    position: relative;
+}
+.ro-1:before {
+    content: '';
+    position: absolute;
+    border-left: 2px solid #333333;
+    border-top: 1px solid #333333;
+    width: 682px;
+    height: 678px;
+    bottom: 3px;
+    left: -2px;
+}
+.ro-2:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid #333333;
+    border-bottom: 1px solid #333333;
+    width: 600px;
+    height: 600px;
+    bottom: -49px;
+    left: -315px;
+}
+.ro-3::before {
+    content: '';
+    position: absolute;
+    border-left: 2px solid #333333;
+    border-top: 1px solid #333333;
+    width: 600px;
+    height: 600px;
+    bottom: -315px;
+    left: -51px;
+}
+.ro-4::before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid #333333;
+    border-bottom: 1px solid #333333;
+    width: 681px;
+    height: 685px;
+    bottom: -449px;
+    left: -444px;
+}
 /* end customize shape */
 
 /* start customize italic section */
